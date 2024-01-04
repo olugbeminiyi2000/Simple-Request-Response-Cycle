@@ -12,7 +12,7 @@ mysock.connect(('localhost', 9000))
 
 # now after the connection has been made give me the request headers
 # to be sent through this connection but encode it using .encode()
-cmd = "GET http://127.0.0.1/postgresSql/postgres.txt HTTP/1.0\r\n\r\n".encode()
+cmd = "GET http://127.0.0.1/postgres/postgres.txt HTTP/1.0\r\n\r\n".encode()
 
 # now send the header to the server
 mysock.send(cmd)
