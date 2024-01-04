@@ -36,7 +36,7 @@ cd Simple-Request-Response-Cycle
    ```
    3. on the other side i.e second terminal run web-browser script
    ```terminal
-   python simplewebrowser.y
+   python simplewebrowser.py
    ```
 ### For Linux/Unix Users:
 
@@ -49,12 +49,39 @@ cd Simple-Request-Response-Cycle
    ```
    3. on the other side i.e second terminal run web-browser script
    ```terminal
-   python simplewebrowser.y
+   python simplewebrowser.py
    ```
 ## Server Details
 
 - The server listens on `localhost` at port `9000`.
 - It handles requests for text files in the specified root path.
+
+## Accessible Files in the Web Browser
+
+The web browser file (`simplewebrowser.py`) allows you to access specific files by modifying the location in the URL. Here are some examples:
+
+### Django Files
+
+#### File: `django.txt`
+- **Location:** `/django/`
+
+### Web Files
+
+#### File: `web.txt`
+- **Location:** `/web/`
+
+### Postgres Files
+
+#### File: `postgres.txt`
+- **Location:** `/postgres/`
+
+### Default File
+
+#### File: `python.txt`
+- **Location:** (If an invalid location is provided or direct path to those file is given)
+
+Feel free to modify the URLs and examples based on your directory structure and naming conventions.
+
 
 ## Note
 
