@@ -44,9 +44,9 @@ cd Simple-Request-Response-Cycle
    1. Split your terminal screen into 2.
    
    2. On one side, Make this script executable (if necessary):
-    ```terminal
-    chmod +x request-response.sh
-    ```
+   ```terminal
+   chmod +x request-response.sh
+   ```
    3. on the other side i.e second terminal run web-browser script
    ```terminal
    python simplewebrowser.y
