@@ -28,26 +28,26 @@ cd Simple-Request-Response-Cycle
 
 
 #### Run the following commands:
-   # Split your terminal screen into 2.
+   ##### Split your terminal screen into 2.
    
-   # On one side, run the server script with the root path as an argument:
+   ##### On one side, run the server script with the root path as an argument:
    ```terminal
    python simpleserver.py "C:\path\to\gitrepo"
    ```
-   # on the other side i.e second terminal run web-browser script
+   ##### on the other side i.e second terminal run web-browser script
    ```terminal
    python simplewebrowser.y
    ```
 ### For Linux/Unix Users:
 
 #### Run the following commands:
-   # Split your terminal screen into 2.
+   ##### Split your terminal screen into 2.
    
-   # On one side, Make this script executable (if necessary):
+   ##### On one side, Make this script executable (if necessary):
     ```terminal
     chmod +x request-response.sh
     ```
-   # on the other side i.e second terminal run web-browser script
+   ##### on the other side i.e second terminal run web-browser script
    ```terminal
    python simplewebrowser.y
    ```
