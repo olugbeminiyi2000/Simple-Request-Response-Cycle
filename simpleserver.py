@@ -120,7 +120,7 @@ if __name__ == "__main__":
 
 
 
-	def RapidLiteHTTP():
+	def RapidLiteHTTPServer():
 		# create a phone
 		serversocket = socket(AF_INET, SOCK_STREAM)
 		print(sys.argv)
@@ -177,4 +177,4 @@ if __name__ == "__main__":
 
 		# if any of the exception occurs the sever stops
 		serversocket.close()
-	RapidLiteHTTP()
+	RapidLiteHTTPServer()
